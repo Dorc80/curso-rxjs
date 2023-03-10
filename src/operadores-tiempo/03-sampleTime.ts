@@ -1,4 +1,5 @@
-import { fromEvent, map, sampleTime } from 'rxjs';
+import { fromEvent, map } from 'rxjs';
+import { sampleTime } from 'rxjs/operators';
 
 const click$ = fromEvent<PointerEvent>(document, 'click');
 
