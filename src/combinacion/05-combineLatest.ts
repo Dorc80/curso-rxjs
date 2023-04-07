@@ -1,4 +1,4 @@
-import { combineLatest, fromEvent, zip } from 'rxjs';
+import { combineLatest, fromEvent } from 'rxjs';
 import { pluck } from 'rxjs/operators';
 
 // const keyup$ = fromEvent(document, 'keyup');
